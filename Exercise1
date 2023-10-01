@@ -2,7 +2,10 @@ import java.nio.file.*;
 import java.nio.file.attribute.*;
 import java.io.IOException;
 
-
+/*
+Create a file by using any word processing program or text editor. Write an application that displays 
+the file's name, size, and time of last modification. Save the file as FileStatistics.java.
+/*
 
 public class FileStatistics
 {
