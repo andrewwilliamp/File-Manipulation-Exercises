@@ -14,15 +14,13 @@ public class FileStatistics
 		{
 		  BasicFileAttributes attr = Files.readAttributes(filePath, BasicFileAttributes.class);
 		  
+		  System.out.println("File Name: " + filePath.getFileName());
 		  System.out.println("File Size: " + attr.size());
-		  
-		  
+		  System.out.println("Last Modified: " + attr.lastModifiedTime());
 		}
 		catch (IOException e)
 		{
 		    System.out.println("Error: " + e);
 		}
-		
-		
 	}
 }
